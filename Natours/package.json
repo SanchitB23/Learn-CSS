@@ -1,0 +1,21 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Learn SASS and CSS project",
+  "repository": {
+    "url": "https://github.com/SanchitB23/Learn-CSS"
+  },
+  "homepage": "https://sanchitb23.github.io/Learn-CSS/Natours",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass resources/scss/main.scss resources/css/style.css -w",
+    "live-server": "live-server"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "node-sass": "^6.0.0"
+  },
+  "author": "sanchitb23",
+  "license": "ISC"
+}
