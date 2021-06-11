@@ -1,2 +1,4 @@
 Exclude
 Natours/node_modules
+Trillo/node_modules
+.idea
