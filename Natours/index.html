@@ -6,10 +6,10 @@
 
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
 
-    <!--        <link rel="stylesheet" href="css/icon-font.css">-->
+    <!--    <link rel="stylesheet" href="css/icon-font.css">-->
     <link rel="stylesheet" href="vendors/icon-font/style.css">
-    <!--    <link rel="stylesheet" href="resources/css/style.css">-->
-    <link rel="stylesheet" href="resources/scss/main.css">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <!--    <link rel="stylesheet" href="resources/scss/main.css">-->
     <link rel="shortcut icon" type="image/png" href="resources/img/favicon.png">
 
     <title>Natours | Exciting tours for adventurous people</title>
@@ -342,7 +342,12 @@
 </main>
 <footer class="footer">
     <div class="footer__logo-box">
-        <img src="resources/img/logo-green-2x.png" alt="Logo Big" class="footer__logo">
+        <picture class="footer__logo">
+            <source srcset="resources/img/logo-green-small-1x.png 1x, resources/img/logo-green-small-2x.png 2x"
+                    media="(max-width: 37.5em)">
+            <img srcset="resources/img/logo-green-1x.png 1x, resources/img/logo-green-2x.png 2x" alt="Full logo"
+                 src="resources/img/logo-green-2x.png">
+        </picture>
     </div>
     <div class="row">
         <div class="col-1-of-2">

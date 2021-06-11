@@ -6,6 +6,9 @@
   padding: 2.5rem;
   box-shadow: 0 1.5rem 4rem $box-shadow;
   transition: tranform .3s;
+  @include respond(tab-port) {
+    padding: 2rem;
+  }
 
   &__icon {
     font-size: 6rem;
