@@ -7,6 +7,7 @@
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
       <excludeFolder url="file://$MODULE_DIR$/Other" />
       <excludeFolder url="file://$MODULE_DIR$/Exclude" />
+      <excludeFolder url="file://$MODULE_DIR$/Trillo/.idea" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
