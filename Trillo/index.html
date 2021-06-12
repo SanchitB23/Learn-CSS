@@ -5,12 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="styles/sass/main.css">
+    <!--    <link rel="stylesheet" href="styles/css/style.css">-->
+    <link rel="shortcut icon" type="image/png" href="resources/img/favicon.png">
 
     <title>trillo &mdash; Your all-in-one booking app</title>
 </head>
 <body>
+<div class="container">
+    <header class="header">
+        <img src="resources/img/logo.png" alt="Logo" class="logo">
 
+        <form action="#" class="search">
+            <input type="search" class="search__input" placeholder="Search hotels">
+            <button class="search__button">
+                <svg class="search__icon">
+                    <use xlink:href="resources/svg/sprite.svg#icon-magnifying-glass"></use>
+                </svg>
+            </button>
+        </form>
+        <nav class="user-nav">
+            <div class="user-nav__icon-box">
+                <svg class="search__icon">
+                    <use xlink:href="resources/svg/sprite.svg#icon-bookmark"></use>
+                </svg>
+                <span class="user-nav__notification">8</span>
+            </div>
+            <div class="user-nav__icon-box">
+                <svg class="search__icon">
+                    <use xlink:href="resources/svg/sprite.svg#icon-chat"></use>
+                </svg>
+                <span class="user-nav__notification">12</span>
+            </div>
+            <div class="user-nav__user">
+                <img src="resources/img/user.jpg" alt="User" class="user-nav__user-photo">
+                <span class="user-nav__user-name">Jonas</span>
+            </div>
+        </nav>
+    </header>
+    <div class="content">
+        <nav class="sidebar">
+            Nav
+        </nav>
+        <main class="hotel-view">
+            Hotel View
+        </main>
+    </div>
+</div>
 </body>
 </html>
